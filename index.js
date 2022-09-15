@@ -717,8 +717,6 @@ var createScene = function () {
       // result.meshes[11].isVisible = result.meshes[12].isVisible = false;
       //ADD WOOD MATERIALS
       woodMaterials.push(scene.getMaterialByID("Wood-Velja"));
-
-      console.log(scene.getMaterialByID("Wood-Velja.001"));
       //METAL PART TO HOLD WOOD POST
       let leftMetalPart = result.meshes[10];
       leftMetalPart.material = rootMat;
